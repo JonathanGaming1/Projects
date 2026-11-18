@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        table{
+            width:80%;
+            border-spacing:3px;
+        }
+        td,th{
+            border:3px solid hotpink;
+            padding:3px;
+            text-align:center;
+            font-size:20px;
+            font-family:Arial
+        }
+        .lion{
+            background-color:paleturquoise
+        }
+        .giraffe {
+            background-color:lightpink
+        }
+        .tiger {
+            background-color:lightcoral
+        }
+        .mouse {
+            background-color:lightgreen
+        }
+        .ferret {
+            background-color:lightsalmon
+        }
+        .fish {
+            background-color:lightsteelblue
+        }
+        .seahorse {
+            background-color:lightseagreen
+        }
+        .hamster {
+            background-color:lightcyan
+        }
+    </style>
+</head>
+<body style="background-color:beige"; dir="rtl">
+    <center>
+        <h1 style="color:palevioletred; text-align:center; margin-top:30px">מערכת ניקוי כלובים</h1>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th><h2>ראשון</h2></th>
+                <th><h2>שני</h2></th>
+                <th><h2>שלישי</h2></th>
+                <th><h2>רביעי</h2></th>
+                <th><h2>חמישי</h2></th>
+                <th><h2>שישי</h2></th>
+                <th><h2>שבת</h2></th>
+            </tr>
+            <tr>
+                 <th>8:00 - 9:00</th>
+                <td rowspan="3" class="ferret">חמוס</td>
+                <td class="giraffe">גירף</td>
+                <td colspan="2" class="tiger">נמר</td> 
+                <td class="mouse">עכבר</td>
+                <td class="fish">דג</td>
+                <td rowspan="5">
+                    <img src="drawable/shbat..jpg" style="width:180px; height:300px" />
+            </tr>
+            <tr>
+                <th>9:00 - 10:00</th>
+                <td rowspan="2" class="tiger">נמר</td>
+                <td class="lion">אריה</td>
+                <td rowspan="2" class="mouse">עכבר</td>
+                <td colspan="2" class="seahorse">סוסון ים</td>
+            </tr>
+            <tr>
+                <th>10:00 - 11:00</th>
+                <td class="giraffe">גירף</td>
+                <td class="seahorse">סוסון ים</td>
+                <td class="hamster">אוגר</td>
+            </tr>
+            <tr>
+                <th>11:00 - 12:00</th>
+                <td class="fish">דג</td>
+                <td class="lion">אריה</td>
+                <td class="hamster">אוגר</td>
+                <td rowspan="2" class="giraffe">גירף</td>
+                <td class="mouse">עכבר</td>
+                <td class="ferret">חמוס</td>
+                
+            </tr>
+            <tr>
+               <th>12:00 - 13:00</th>
+                <td class="seahorse">סוסון ים</td>
+                <td class="tiger">נמר</td>
+                <td class="lion">אריה</td>
+                <td class="fish">דג</td>
+                <td class="mouse">עכבר</td>
+                
+            </tr>
+        </table>
+           </center>
+</body>
+</html>
